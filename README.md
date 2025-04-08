@@ -5,8 +5,13 @@
 2. Please comment all your code adequately.
 3. Include all relevant information such as text answers, output images in notebook.
 4. **Academic integrity:** The homework must be completed individually.
-
-5. **Submission instructions:**  
+5. Clone the repository as follows:
+```bash
+cd ~
+git clone -j8 https://github.com/myaldiz/CSE152B-HW.git
+cd CSE152B-HW
+```
+6. **Submission instructions:**  
  (a) Submit the notebook and its PDF version on Gradescope.  
  (b) To save as PDF, use Ctrl + P -> Save as PDF (toggling Headers and footers, Background graphics).  
  (c) Rename your submission files as Lastname_Firstname.ipynb and Lastname_Firstname.pdf.  

@@ -14,14 +14,12 @@ You should be assigned an account that has access to GPU clusters on https://dat
 Once you are in the bash environment from the terminal, pull the code for HW1 by:
 
 ```bash
-cd ~
-git clone -j8 https://github.com/myaldiz/CSE152B-HW.git
-cd CSE152B-HW
+cd HW1
 cd pytorch-superpoint/datasets
 # Download the HPatches dataset
 curl -L -o hpatches-sequence-release.zip  https://www.kaggle.com/api/v1/datasets/download/javidtheimmortal/hpatches-sequence-release
 # Unzip the dataset into HPatches folder
-unzip hpatches-sequence-release.zip && mv hpatches-sequence-release HPatches
+unzip hpatches-sequence-release.zip && mv hpatches-sequences-release HPatches
 cd ..
 ```
 
