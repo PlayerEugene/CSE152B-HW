@@ -3,7 +3,7 @@
 
 You should be assigned an account that has access to GPU clusters on https://datahub.ucsd.edu/. Steps to set up the environment:
 - Login with your UCSD credentials;
-- Launch a GPU instance with (1 GPU, 8 CPU, 16G RAM). This will lead you to a Jupyter Notebook GUI, where you can browse files, launch a terminal with bash environment via (upper-right) New -> Terminal.
+- Launch a GPU instance with (4 CPU, 16G RAM, 1 GPU). This will lead you to a Jupyter Notebook GUI, where you can browse files, launch a terminal with bash environment via (upper-right) New -> Terminal.
 - You can also access the container with command line from your local terminal:
     - `ssh {your ucsd id}@dsmlp-login.ucsd.edu` # use your UCSD credentials
     - get active container via `kubectl get pods`
