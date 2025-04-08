@@ -1,0 +1,19 @@
+data:
+  alteration: all
+  cache_in_memory: false
+  dataset: hpatches
+  name: patches_dataset
+  preprocessing:
+    resize:
+    - 240
+    - 320
+  validation_size: 100
+eval_iter: 600
+model:
+  batch_size: 1
+  learning_rate: 0.001
+  method: sift
+  name: classical_detectors_descriptors
+  nms: 4
+  top_k: 1000
+seed: 1

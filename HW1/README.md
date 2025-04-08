@@ -15,10 +15,13 @@ Once you are in the bash environment from the terminal, pull the code for HW1 by
 
 ```bash
 cd ~
-git clone --recurse-submodules -j8 https://github.com/myaldiz/CSE152B-HW.git
+git clone -j8 https://github.com/myaldiz/CSE152B-HW.git
 cd CSE152B-HW
 cd pytorch-superpoint/datasets
-ln -s /datasets/cs152b-sp22-a00-public/hpatches-sequences-release/ HPatches # map the public dataset to your location
+# Download the HPatches dataset
+curl -L -o hpatches-sequence-release.zip  https://www.kaggle.com/api/v1/datasets/download/javidtheimmortal/hpatches-sequence-release
+# Unzip the dataset into HPatches folder
+unzip hpatches-sequence-release.zip && mv hpatches-sequence-release HPatches
 cd ..
 ```
 

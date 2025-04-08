@@ -1,3 +1,0 @@
-[submodule "HW1/pytorch-superpoint"]
-	path = HW1/pytorch-superpoint
-	url = https://github.com/Jerrypiglet/pytorch-superpoint.git

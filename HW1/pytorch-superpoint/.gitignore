@@ -1,0 +1,12 @@
+datasets/draw*
+datasets/gaussian*
+datasets/synthetic*
+datasets/KITTI
+datasets/HPatches
+datasets/kitti_split_
+runs/*
+*.pyc
+logs/*/predictions/*
+logs/magicpoint_synth/checkpoints/*
+notebooks/.ipynb_checkpoints/*
+logs/magicpoint_synth20_homoAdapt100_kitti_h384_labels

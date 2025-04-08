@@ -1,0 +1,29 @@
+# torch >= 0.4.1
+# torchvision
+
+# conda install nb_conda_kernels
+
+argparse
+scipy
+opencv-python
+opencv-contrib-python
+matplotlib
+imageio
+tqdm
+# tensorflow==1.14.0
+tensorflow
+tensorflow_addons
+tensorboardX
+tqdm
+pyyaml
+imageio
+imgaug
+jupyter
+scikit-learn
+
+torchgeometry
+torchsummary
+coloredlogs
+pyyaml==5.4
+ipdb
+# pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
