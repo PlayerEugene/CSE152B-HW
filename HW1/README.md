@@ -38,4 +38,4 @@ Complete the code in [HW1.ipynb](HW1.ipynb).
  (b) Rename your submission files as Lastname_Firstname.ipynb and Lastname_Firstname.pdf.  
  (c) Correctly select pages for each answer (only your answers; excluding the problem description text) on Gradescope to allow proper grading.
 
-6. **Due date:** Assignments are TBD PST.
+6. **Due date:** Assignments are due Sat Apr 19, 11.59PM PST.
