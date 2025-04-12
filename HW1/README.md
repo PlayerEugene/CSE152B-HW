@@ -16,8 +16,9 @@ Once you are in the bash environment from the terminal, pull the code for HW1 by
 ```bash
 cd HW1
 cd pytorch-superpoint/datasets
-# Link the dataset
+# Link the datasets
 ln -s ~/public/HPatches .
+ln -s ~/public/kitti .
 # You can download the HPatches dataset too:
 # curl -L -o hpatches-sequence-release.zip  https://www.kaggle.com/api/v1/datasets/download/javidtheimmortal/hpatches-sequence-release
 # Unzip the dataset into HPatches folder
