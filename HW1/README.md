@@ -14,8 +14,7 @@ You should be assigned an account that has access to GPU clusters on https://dat
 Once you are in the bash environment from the terminal, pull the code for HW1 by:
 
 ```bash
-cd HW1
-cd pytorch-superpoint/datasets
+cd CSE152B-HW/HW1/pytorch-superpoint/datasets
 # Link the datasets
 ln -s ~/public/HPatches .
 ln -s ~/public/kitti .
